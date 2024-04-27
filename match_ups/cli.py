@@ -41,4 +41,4 @@ def match_ups(participants: str, h2h_count: int, phases: int):
 
     for phase, res in enumerate(result):
         click.secho(f"Phase {phase+1}", bold=True)
-        click.echo(tabulate(res, tablefmt="grid"))
+        click.echo(tabulate([pair.value for pair in res], tablefmt="grid"))

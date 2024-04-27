@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "match-ups"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Rishabh Sharma <99526730+sharma-rishabh@users.noreply.github.com >"]
 readme = "README.md"
